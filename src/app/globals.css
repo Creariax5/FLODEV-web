@@ -19,3 +19,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bg-color-1 {
+  @apply bg-red-600;
+}
+
+.border-color-1 {
+  @apply border-red-600;
+}
+
+.bg-color-2 {
+  @apply bg-purple-600;
+}
+
+.border-color-2 {
+  @apply border-purple-600;
+}
+
+.custom-bg {
+  @apply bg-gradient-to-r from-red-600 to-purple-600;
+}
