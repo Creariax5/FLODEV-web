@@ -1,6 +1,6 @@
 const FormTextarea = () => (
     <div className="relative group">
-        <div className="absolute inset-0 custom-bg rounded-lg opacity-75 blur-sm group-focus-within:opacity-100 transition-opacity"></div>
+        <div className="absolute inset-0 custom-dark-bg rounded-lg opacity-75 blur-sm group-focus-within:opacity-100 transition-opacity"></div>
         <textarea
             placeholder="Your Message"
             rows="4"

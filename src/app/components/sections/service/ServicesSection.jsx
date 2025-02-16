@@ -24,7 +24,7 @@ const ServicesSection = () => {
         <section id="services" className="relative py-32 px-6">
             <div className="container mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-                    <span className="custom-bg bg-clip-text text-transparent">
+                    <span className="custom-light-bg bg-clip-text text-transparent">
                         Our Expertise
                     </span>
                 </h2>

@@ -5,7 +5,7 @@ const HeroSection = () => (
     <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
         <div className="relative z-10 text-center max-w-4xl mx-auto">
             <h1 className="text-6xl md:text-7xl font-bold mb-8">
-                <span className="custom-bg bg-clip-text text-transparent">
+                <span className="custom-light-bg bg-clip-text text-transparent">
                     Transform Ideas into
                 </span>
                 <br />

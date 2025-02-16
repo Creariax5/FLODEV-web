@@ -20,22 +20,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bg-color-1 {
-  @apply bg-red-600;
+.custom-light-bg {
+  @apply bg-gradient-to-r from-light-1 via-purple-500 to-light-2;
 }
 
-.border-color-1 {
-  @apply border-red-600;
-}
-
-.bg-color-2 {
-  @apply bg-purple-600;
-}
-
-.border-color-2 {
-  @apply border-purple-600;
-}
-
-.custom-bg {
-  @apply bg-gradient-to-r from-red-600 to-purple-600;
+.custom-dark-bg {
+  @apply bg-gradient-to-r from-dark-1 via-purple-500 to-dark-2;
 }
